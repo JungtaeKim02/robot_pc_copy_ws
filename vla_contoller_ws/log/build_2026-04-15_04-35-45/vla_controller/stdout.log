@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing vla_controller.egg-info/PKG-INFO
+writing dependency_links to vla_controller.egg-info/dependency_links.txt
+writing entry points to vla_controller.egg-info/entry_points.txt
+writing requirements to vla_controller.egg-info/requires.txt
+writing top-level names to vla_controller.egg-info/top_level.txt
+reading manifest file 'vla_controller.egg-info/SOURCES.txt'
+writing manifest file 'vla_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/vla_controller_ws/install/vla_controller/lib/python3.12/site-packages/vla-controller.egg-link (link to .)
+Installing vla_controller_node script to /root/vla_controller_ws/install/vla_controller/lib/vla_controller
+
+Installed /root/vla_controller_ws/build/vla_controller
+running symlink_data

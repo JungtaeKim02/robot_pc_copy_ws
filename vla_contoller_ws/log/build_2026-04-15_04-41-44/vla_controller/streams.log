@@ -1,0 +1,17 @@
+[0.564s] Invoking command in '/root/vla_controller_ws/build/vla_controller': PYTHONPATH=/root/vla_controller_ws/build/vla_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/vla_controller_ws/install/vla_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/vla_controller_ws/build/vla_controller/build --no-deps symlink_data
+[0.770s] running develop
+[0.850s] running egg_info
+[0.858s] writing vla_controller.egg-info/PKG-INFO
+[0.858s] writing dependency_links to vla_controller.egg-info/dependency_links.txt
+[0.858s] writing entry points to vla_controller.egg-info/entry_points.txt
+[0.858s] writing requirements to vla_controller.egg-info/requires.txt
+[0.858s] writing top-level names to vla_controller.egg-info/top_level.txt
+[0.875s] reading manifest file 'vla_controller.egg-info/SOURCES.txt'
+[0.875s] writing manifest file 'vla_controller.egg-info/SOURCES.txt'
+[0.884s] running build_ext
+[0.884s] Creating /root/vla_controller_ws/install/vla_controller/lib/python3.12/site-packages/vla-controller.egg-link (link to .)
+[0.884s] Installing vla_controller_node script to /root/vla_controller_ws/install/vla_controller/lib/vla_controller
+[0.885s] 
+[0.885s] Installed /root/vla_controller_ws/build/vla_controller
+[0.885s] running symlink_data
+[0.933s] Invoked command in '/root/vla_controller_ws/build/vla_controller' returned '0': PYTHONPATH=/root/vla_controller_ws/build/vla_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/vla_controller_ws/install/vla_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/vla_controller_ws/build/vla_controller/build --no-deps symlink_data

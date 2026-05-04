@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(///wsl.localhost/Ubuntu-22.04/home/kimjungtae/**)",
+      "Read(//mnt/wsl/Ubuntu-22.04/home/kimjungtae/**)",
+      "Read(///wsl.localhost/Ubuntu-22.04/home/kimjungtae/robot_pc_copy_ws/**)",
+      "Bash(git ls-tree *)",
+      "Bash(cat .gitmodules)",
+      "Bash(xargs grep *)",
+      "Bash(cp \"//wsl.localhost/Ubuntu-22.04/home/kimjungtae/robot_pc_copy_ws/inha_control_client/src/rby1_action_server_bio_ik.cpp\" \"//wsl.localhost/Ubuntu-22.04/home/kimjungtae/robot_pc_copy_ws/inha_control_client/src/rby1_action_server_bio_ik_v2.cpp\")",
+      "Read(///wsl.localhost/Ubuntu-22.04/home/kimjungtae/robot_pc_copy_ws/inha_control_client/src/**)",
+      "Bash(mkdir -p \"//wsl.localhost/Ubuntu-22.04/home/kimjungtae/robot_pc_copy_ws/inha_interfaces/msg\" \"//wsl.localhost/Ubuntu-22.04/home/kimjungtae/robot_pc_copy_ws/inha_interfaces/srv\")",
+      "Bash(mkdir -p inha_interfaces/msg inha_interfaces/srv)"
+    ]
+  }
+}

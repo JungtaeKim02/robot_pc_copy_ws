@@ -1,0 +1,33 @@
+# 전역 옥토맵 설정
+octomap_frame: world
+octomap_resolution: 0.03  # 옥토맵 셀 크기 (미터)
+
+# 센서 플러그인 목록
+sensors:
+  - camera
+
+# ☁️ PointCloud 카메라 설정
+camera:
+  # 사용할 플러그인 지정 (PointCloudOctomapUpdater)
+  sensor_plugin: occupancy_map_monitor/PointCloudOctomapUpdater 
+  
+  # [필수] 센서 데이터가 발행되는 ROS 토픽 (type: sensor_msgs/PointCloud2)
+  point_cloud_topic: /detection/merged_full
+  
+  # [필수] 유효한 포인트 클라우드 데이터의 최대 거리 (미터)
+  max_range: 20.0
+  
+  # [필수] OctoMap 업데이트 최대 빈도 (Hz)
+  max_update_rate: 0.5
+  
+  # [필수] PointCloudUpdater 전용: 포인트 클라우드 샘플링 비율 (1은 모든 포인트를 사용)
+  point_subsample: 1
+  # [필수] Self-Collision 필터링을 위한 로봇 패딩 스케일
+  padding_scale: 1.0
+  
+  # [필수] Self-Collision 필터링을 위한 로봇 패딩 오프셋
+  padding_offset: 0.165
+  
+  # [선택] 필터링된 포인트 클라우드가 발행될 토픽 (디버깅용)
+  filtered_cloud_topic: filtered_cloud 
+

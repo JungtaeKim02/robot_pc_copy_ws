@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: rby1_description
+    relative_path: urdf/rby1_inha.urdf
+  srdf:
+    relative_path: config/rby1_v1_1.srdf
+  package_settings:
+    author_name: JungtaeKim
+    author_email: buttontg@naver.com
+    generated_timestamp: 1767868700
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

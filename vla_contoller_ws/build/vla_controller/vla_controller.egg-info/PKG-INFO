@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: vla-controller
+Version: 0.1.0
+Summary: VLA controller for RBY1 robot with multi-threaded inference and control
+Maintainer: kimjungtae
+Maintainer-email: buttontg@naver.com
+License: Apache-2.0

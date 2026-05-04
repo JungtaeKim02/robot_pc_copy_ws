@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating vla_controller.egg-info
+writing vla_controller.egg-info/PKG-INFO
+writing dependency_links to vla_controller.egg-info/dependency_links.txt
+writing entry points to vla_controller.egg-info/entry_points.txt
+writing requirements to vla_controller.egg-info/requires.txt
+writing top-level names to vla_controller.egg-info/top_level.txt
+writing manifest file 'vla_controller.egg-info/SOURCES.txt'
+reading manifest file 'vla_controller.egg-info/SOURCES.txt'
+writing manifest file 'vla_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/vla_controller_ws/install/vla_controller/lib/python3.12/site-packages/vla-controller.egg-link (link to .)
+Installing vla_controller_node script to /root/vla_controller_ws/install/vla_controller/lib/vla_controller
+
+Installed /root/vla_controller_ws/build/vla_controller
+running symlink_data
+creating /root/vla_controller_ws/install/vla_controller/share/ament_index
+creating /root/vla_controller_ws/install/vla_controller/share/ament_index/resource_index
+creating /root/vla_controller_ws/install/vla_controller/share/ament_index/resource_index/packages
+symbolically linking /root/vla_controller_ws/build/vla_controller/resource/vla_controller -> /root/vla_controller_ws/install/vla_controller/share/ament_index/resource_index/packages
+symbolically linking /root/vla_controller_ws/build/vla_controller/package.xml -> /root/vla_controller_ws/install/vla_controller/share/vla_controller
+creating /root/vla_controller_ws/install/vla_controller/share/vla_controller/launch
+symbolically linking /root/vla_controller_ws/build/vla_controller/launch/vla_controller.launch.py -> /root/vla_controller_ws/install/vla_controller/share/vla_controller/launch

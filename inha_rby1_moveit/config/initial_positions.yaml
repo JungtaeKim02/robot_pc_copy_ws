@@ -1,0 +1,25 @@
+# Default initial positions for rby1_v1_1's ros2_control fake system
+
+initial_positions:
+  torso_0: 0
+  torso_1: 0
+  torso_2: 0
+  torso_3: 0
+  torso_4: 0
+  torso_5: 0
+  right_arm_0: 0
+  right_arm_1: 0
+  right_arm_2: 0
+  right_arm_3: 0
+  right_arm_4: 0
+  right_arm_5: 0
+  right_arm_6: 0
+  left_arm_0: 0
+  left_arm_1: 0
+  left_arm_2: 0
+  left_arm_3: 0
+  left_arm_4: 0
+  left_arm_5: 0
+  left_arm_6: 0
+  head_0: 0
+  head_1: 0

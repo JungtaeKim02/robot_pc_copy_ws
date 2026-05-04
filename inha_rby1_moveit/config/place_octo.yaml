@@ -1,0 +1,15 @@
+octomap_frame: world
+octomap_resolution: 0.025
+
+sensors:
+  - lidar_clipper
+
+lidar_clipper:
+  sensor_plugin: occupancy_map_monitor/PointCloudOctomapUpdater
+  point_cloud_topic: /octo_pcd
+  max_range: 2.5
+  max_update_rate: 5.0
+  point_subsample: 1
+  padding_scale: 1.0
+  padding_offset: 0.03
+  filtered_cloud_topic: /octomap_filtered
